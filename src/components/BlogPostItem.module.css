@@ -1,0 +1,28 @@
+/* BlogPostItem.module.css */
+.blogPostItem {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .blogPostItem h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .blogPostItem p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .link {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,106 @@
+/* BlogPostDetails.module.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+  }
+  
+  .blogPostDetails {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  h1 {
+    color:white;
+    margin-bottom: 20px;
+  }
+  
+  .img {
+    width: 100%;
+    height: autopx;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+  
+  .date {
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* BlogPostDetails.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    overflow: hidden; /* Hide scroll bar within the container */
+  }
+  
+  .blogPostDetails {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included within the element's total width and height */
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .date {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: darkgreen;
+  }
+  
+  .button:hover {
+    background-color: black;
+  }
+  
+  .date {
+    font-size: 0.9em;
+    color:black;
+    background-color:white;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 3px;
+  }
+  
